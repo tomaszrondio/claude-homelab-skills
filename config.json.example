@@ -1,0 +1,18 @@
+{
+  "proxmox": {
+    "host": "192.168.1.100",
+    "user": "root",
+    "password": "YOUR_PROXMOX_PASSWORD"
+  },
+  "unifi": {
+    "host": "192.168.1.1",
+    "username": "admin",
+    "password": "YOUR_UNIFI_API_KEY",
+    "backup_password": "YOUR_UNIFI_ADMIN_PASSWORD",
+    "port": 443,
+    "version": "UDMP-unifiOS",
+    "site": "default",
+    "is_unifi_os": true,
+    "ssl_verify": false
+  }
+}

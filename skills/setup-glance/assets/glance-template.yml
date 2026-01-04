@@ -1,0 +1,29 @@
+server:
+  port: 8080
+
+branding:
+  app-name: Dashboard
+
+theme:
+  light: false
+
+pages:
+  - name: Home
+    columns:
+      - size: small
+        widgets:
+          - type: bookmarks
+            groups:
+              - title: Services
+                links:
+                  - title: Service Name
+                    url: http://SERVER_IP:PORT
+                    icon: mdi:icon-name
+
+      - size: full
+        widgets:
+          - type: docker-containers
+            title: Docker Containers
+            limit: 20
+            running-only: false
+            show-status: true

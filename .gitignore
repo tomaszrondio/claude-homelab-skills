@@ -1,0 +1,31 @@
+# Credentials and secrets
+config.json
+.credentials.json
+*.key
+*.pem
+
+# Local settings
+settings.local.json
+
+# History and cache
+history.jsonl
+file-history/
+session-env/
+shell-snapshots/
+todos/
+stats-cache.json
+statsig/
+debug/
+downloads/
+plans/
+projects/
+
+# System files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Python bytecode
+__pycache__/
+*.pyc

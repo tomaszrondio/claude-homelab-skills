@@ -1,0 +1,34 @@
+{
+  "host": {
+    "cpu_warning": 70,
+    "cpu_critical": 90,
+    "memory_warning": 75,
+    "memory_critical": 90,
+    "disk_warning": 80,
+    "disk_critical": 90
+  },
+  "docker": {
+    "restart_count_warning": 5,
+    "memory_percent_warning": 80
+  },
+  "network": {
+    "device_offline_critical": true,
+    "wan_down_critical": true,
+    "client_count_warning": 100
+  },
+  "proxmox": {
+    "cpu_warning": 80,
+    "memory_warning": 85,
+    "storage_warning": 85,
+    "vm_stopped_critical": ["100", "101"]
+  },
+  "dns": {
+    "resolution_fail_critical": true,
+    "block_percent_min": 5,
+    "queries_per_hour_warning": 10000
+  },
+  "backups": {
+    "unifi_age_warning_days": 7,
+    "obsidian_age_warning_hours": 24
+  }
+}
